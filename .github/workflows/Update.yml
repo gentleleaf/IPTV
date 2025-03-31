@@ -76,7 +76,9 @@ jobs:
     
     - name: Push
       run: |
-        git push -f https://github.com/${{ github.repository }}.git HEAD:Files
+        git remote set-url origin https://github.com/${{ github.repository }}.git
+        git push -f https://x-access-token:${{ secrets.GH_TOKEN }}@github.com/${{ github.repository }}.git HEAD:Files
       env:
-        GITHUB_TOKEN: ${{ secrets.GH_TOKEN }}
+        GH_TOKEN: ${{ secrets.GH_TOKEN }}
+
 
