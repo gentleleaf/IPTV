@@ -16311,6 +16311,9 @@
 	<programme channel="咪咕综合体育" start="20250401000000 +0800" stop="20250401014000 +0800">
 		<title lang="zh">英超赛场-24/25赛季英超 第29轮 莱斯特城-曼联</title>
 	</programme>
+	<programme channel="咪咕综合体育" start="20250401014000 +0800" stop="20250401014500 +0800">
+		<title lang="zh">频道宣传</title>
+	</programme>
 	<channel id="咪咕足球">
 		<display-name lang="zh">咪咕足球</display-name>
 	</channel>
@@ -16319,6 +16322,9 @@
 	</programme>
 	<programme channel="咪咕足球" start="20250401012100 +0800" stop="20250401012600 +0800">
 		<title lang="zh">频道宣传</title>
+	</programme>
+	<programme channel="咪咕足球" start="20250401012600 +0800" stop="20250401022600 +0800">
+		<title lang="zh">超级三对三-2024超三联赛</title>
 	</programme>
 	<channel id="四川卫视">
 		<display-name lang="zh">四川卫视</display-name>
@@ -38991,6 +38997,9 @@
 	<programme channel="纯享4K" start="20250401005800 +0800" stop="20250401012800 +0800">
 		<title lang="zh">味道4K 原味乡间b7崇仁篇（上）</title>
 	</programme>
+	<programme channel="纯享4K" start="20250401012800 +0800" stop="20250401015800 +0800">
+		<title lang="zh">味道4K 原味乡间b7崇仁篇（下）</title>
+	</programme>
 	<channel id="经典剧场">
 		<display-name lang="zh">经典剧场</display-name>
 	</channel>
@@ -47940,6 +47949,9 @@
 	<programme channel="黑莓电影" start="20250401000500 +0800" stop="20250401014400 +0800">
 		<title lang="zh">黄庙村b7地宫美人</title>
 	</programme>
+	<programme channel="黑莓电影" start="20250401014400 +0800" stop="20250401031400 +0800">
+		<title lang="zh">舞出我人生之舞所不能</title>
+	</programme>
 	<channel id="黑龙江卫视">
 		<display-name lang="zh">黑龙江卫视</display-name>
 	</channel>
@@ -48243,6 +48255,9 @@
 	<programme channel="newtv超级电视剧" start="20250401004600 +0800" stop="20250401013200 +0800">
 		<title lang="zh">31_三十而已</title>
 	</programme>
+	<programme channel="newtv超级电视剧" start="20250401013200 +0800" stop="20250401021900 +0800">
+		<title lang="zh">32_三十而已</title>
+	</programme>
 	<channel id="newtv精品大剧">
 		<display-name lang="zh">NEWTV精品大剧</display-name>
 	</channel>
@@ -48261,6 +48276,9 @@
 	<programme channel="newtv精品纪录" start="20250401004200 +0800" stop="20250401012200 +0800">
 		<title lang="zh">03_夏长万物</title>
 	</programme>
+	<programme channel="newtv精品纪录" start="20250401012200 +0800" stop="20250401015000 +0800">
+		<title lang="zh">03_心脏王冠</title>
+	</programme>
 	<channel id="newtv古装剧场">
 		<display-name lang="zh">NEWTV古装剧场</display-name>
 	</channel>
@@ -48275,6 +48293,9 @@
 	</channel>
 	<programme channel="newtv军旅剧场" start="20250401003500 +0800" stop="20250401012000 +0800">
 		<title lang="zh">37_喋血长江</title>
+	</programme>
+	<programme channel="newtv军旅剧场" start="20250401012000 +0800" stop="20250401020500 +0800">
+		<title lang="zh">38_喋血长江</title>
 	</programme>
 	<channel id="newtv家庭剧场">
 		<display-name lang="zh">NEWTV家庭剧场</display-name>
@@ -48342,11 +48363,17 @@
 	<programme channel="newtv精品综合" start="20250401000400 +0800" stop="20250401013400 +0800">
 		<title lang="zh">极海迷窟</title>
 	</programme>
+	<programme channel="newtv精品综合" start="20250401013400 +0800" stop="20250401030800 +0800">
+		<title lang="zh">五十公里桃花坞第4季</title>
+	</programme>
 	<channel id="newtv惊悚悬疑">
 		<display-name lang="zh">NEWTV惊悚悬疑</display-name>
 	</channel>
 	<programme channel="newtv惊悚悬疑" start="20250401003700 +0800" stop="20250401012200 +0800">
 		<title lang="zh">BEYONPAN多功能钛养生壶加赠组-渠道（右）</title>
+	</programme>
+	<programme channel="newtv惊悚悬疑" start="20250401012200 +0800" stop="20250401031400 +0800">
+		<title lang="zh">长安伏妖</title>
 	</programme>
 	<channel id="newtv金牌综艺">
 		<display-name lang="zh">NEWTV金牌综艺</display-name>
