@@ -39018,6 +39018,9 @@
 	<programme channel="纯享4K" start="20250401022200 +0800" stop="20250401024700 +0800">
 		<title lang="zh">东方新科幻4K 第2集 未雨绸缪</title>
 	</programme>
+	<programme channel="纯享4K" start="20250401024700 +0800" stop="20250401032700 +0800">
+		<title lang="zh">探索b7发现4K 匠人b7匠心（16）</title>
+	</programme>
 	<channel id="经典剧场">
 		<display-name lang="zh">经典剧场</display-name>
 	</channel>
@@ -48081,6 +48084,9 @@
 	<programme channel="黑莓动画" start="20250401010100 +0800" stop="20250401025100 +0800">
 		<title lang="zh">姜子牙0228</title>
 	</programme>
+	<programme channel="黑莓动画" start="20250401025100 +0800" stop="20250401043200 +0800">
+		<title lang="zh">守龙者</title>
+	</programme>
 	<channel id="黑莓电影">
 		<display-name lang="zh">黑莓电影</display-name>
 	</channel>
@@ -48375,6 +48381,9 @@
 	<programme channel="newtv超级综艺" start="20250401014400 +0800" stop="20250401030500 +0800">
 		<title lang="zh">小品相声大会</title>
 	</programme>
+	<programme channel="newtv超级综艺" start="20250401030500 +0800" stop="20250401035500 +0800">
+		<title lang="zh">一笑一周</title>
+	</programme>
 	<channel id="newtv超级体育">
 		<display-name lang="zh">NEWTV超级体育</display-name>
 	</channel>
@@ -48407,6 +48416,9 @@
 	</programme>
 	<programme channel="newtv超级电视剧" start="20250401021900 +0800" stop="20250401030400 +0800">
 		<title lang="zh">33_三十而已</title>
+	</programme>
+	<programme channel="newtv超级电视剧" start="20250401030400 +0800" stop="20250401034900 +0800">
+		<title lang="zh">34_三十而已</title>
 	</programme>
 	<channel id="newtv精品大剧">
 		<display-name lang="zh">NEWTV精品大剧</display-name>
@@ -48468,6 +48480,9 @@
 	<programme channel="newtv军旅剧场" start="20250401020500 +0800" stop="20250401025000 +0800">
 		<title lang="zh">39_喋血长江</title>
 	</programme>
+	<programme channel="newtv军旅剧场" start="20250401025000 +0800" stop="20250401033500 +0800">
+		<title lang="zh">40_喋血长江</title>
+	</programme>
 	<channel id="newtv家庭剧场">
 		<display-name lang="zh">NEWTV家庭剧场</display-name>
 	</channel>
@@ -48488,6 +48503,9 @@
 	</channel>
 	<programme channel="newtv热播精选" start="20250401001200 +0800" stop="20250401025500 +0800">
 		<title lang="zh">变形金刚4：绝迹重生</title>
+	</programme>
+	<programme channel="newtv热播精选" start="20250401025500 +0800" stop="20250401034400 +0800">
+		<title lang="zh">27_青山不墨</title>
 	</programme>
 	<channel id="newtv爱情喜剧">
 		<display-name lang="zh">NEWTV爱情喜剧</display-name>
