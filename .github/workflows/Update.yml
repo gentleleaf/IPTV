@@ -74,10 +74,10 @@ jobs:
         # 重命名 current branch 为 Files
         git branch -m Files
     
-    - name: Push
+    - name: Push changes
+      run: git push -f https://gentleleaf:${GH_PAT}@github.com/gentleleaf/IPTV.git HEAD:Files
       env:
         GH_PAT: ${{ secrets.GH_PAT }}
-      run: git push -f https://gentleleaf:${GH_PAT}@github.com/gentleleaf/IPTV.git HEAD:Files
 
 
 
