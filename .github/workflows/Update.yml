@@ -75,10 +75,10 @@ jobs:
         git branch -m Files
     
     - name: Push
-      run: |
-        git remote set-url origin https://github.com/${{ github.repository }}.git
-        git push -f https://x-access-token:${{ secrets.GH_TOKEN }}@github.com/${{ github.repository }}.git HEAD:Files
       env:
-        GH_TOKEN: ${{ secrets.GH_TOKEN }}
+        GH_PAT: ${{ secrets.GH_PAT }}
+      run: git push -f https://gentleleaf:${GH_PAT}@github.com/gentleleaf/IPTV.git HEAD:Files
+
+
 
 
