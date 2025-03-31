@@ -25737,6 +25737,9 @@
 	<programme channel="咪咕综合体育" start="20250331184500 +0800" stop="20250331185000 +0800">
 		<title lang="zh">频道宣传</title>
 	</programme>
+	<programme channel="咪咕综合体育" start="20250331185000 +0800" stop="20250331202000 +0800">
+		<title lang="zh">网球世界-2025WTA1000迈阿密站 第4轮 郑钦文-克鲁格</title>
+	</programme>
 	<channel id="咪咕足球">
 		<display-name lang="zh">咪咕足球</display-name>
 	</channel>
@@ -25808,6 +25811,9 @@
 	</programme>
 	<programme channel="咪咕足球" start="20250331182000 +0800" stop="20250331185500 +0800">
 		<title lang="zh">NBA周刊</title>
+	</programme>
+	<programme channel="咪咕足球" start="20250331190000 +0800" stop="20250331220000 +0800">
+		<title lang="zh">当燃CBA-24/25常规赛第46轮 辽宁本钢-山东高速 直播</title>
 	</programme>
 	<channel id="哈哈炫动">
 		<display-name lang="zh">哈哈炫动</display-name>
@@ -36900,6 +36906,9 @@
 	<programme channel="惊悚悬疑" start="20250331170200 +0800" stop="20250331184700 +0800">
 		<title lang="zh">野蛮人入侵（译制版）</title>
 	</programme>
+	<programme channel="惊悚悬疑" start="20250331184700 +0800" stop="20250331191700 +0800">
+		<title lang="zh">《八段锦》推荐第19期</title>
+	</programme>
 	<channel id="成都公共">
 		<display-name lang="zh">成都公共</display-name>
 	</channel>
@@ -40037,6 +40046,9 @@
 	</programme>
 	<programme channel="明星大片" start="20250331174600 +0800" stop="20250331184900 +0800">
 		<title lang="zh">活力满分的夏天</title>
+	</programme>
+	<programme channel="明星大片" start="20250331184900 +0800" stop="20250331193400 +0800">
+		<title lang="zh">BEYONPAN多功能钛养生壶加赠组-渠道（右）</title>
 	</programme>
 	<channel id="明珠台">
 		<display-name lang="zh">明珠台</display-name>
@@ -77769,6 +77781,9 @@
 	<programme channel="newtv精品纪录" start="20250331182400 +0800" stop="20250331185500 +0800">
 		<title lang="zh">03_守护</title>
 	</programme>
+	<programme channel="newtv精品纪录" start="20250331185500 +0800" stop="20250331191900 +0800">
+		<title lang="zh">01_极致水原</title>
+	</programme>
 	<channel id="newtv古装剧场">
 		<display-name lang="zh">NEWTV古装剧场</display-name>
 	</channel>
@@ -77924,6 +77939,9 @@
 	</programme>
 	<programme channel="newtv军旅剧场" start="20250331181300 +0800" stop="20250331185900 +0800">
 		<title lang="zh">05_女特警</title>
+	</programme>
+	<programme channel="newtv军旅剧场" start="20250331185900 +0800" stop="20250331194500 +0800">
+		<title lang="zh">06_女特警</title>
 	</programme>
 	<channel id="newtv家庭剧场">
 		<display-name lang="zh">NEWTV家庭剧场</display-name>
@@ -78630,6 +78648,9 @@
 	<programme channel="newtv精品综合" start="20250331174600 +0800" stop="20250331184900 +0800">
 		<title lang="zh">活力满分的夏天</title>
 	</programme>
+	<programme channel="newtv精品综合" start="20250331184900 +0800" stop="20250331193400 +0800">
+		<title lang="zh">BEYONPAN多功能钛养生壶加赠组-渠道（右）</title>
+	</programme>
 	<channel id="newtv惊悚悬疑">
 		<display-name lang="zh">NEWTV惊悚悬疑</display-name>
 	</channel>
@@ -78671,6 +78692,9 @@
 	</programme>
 	<programme channel="newtv惊悚悬疑" start="20250331170200 +0800" stop="20250331184700 +0800">
 		<title lang="zh">野蛮人入侵（译制版）</title>
+	</programme>
+	<programme channel="newtv惊悚悬疑" start="20250331184700 +0800" stop="20250331191700 +0800">
+		<title lang="zh">《八段锦》推荐第19期</title>
 	</programme>
 	<channel id="newtv金牌综艺">
 		<display-name lang="zh">NEWTV金牌综艺</display-name>
@@ -78719,6 +78743,9 @@
 	</programme>
 	<programme channel="newtv金牌综艺" start="20250331170300 +0800" stop="20250331184700 +0800">
 		<title lang="zh">一笑一周</title>
+	</programme>
+	<programme channel="newtv金牌综艺" start="20250331184700 +0800" stop="20250331193200 +0800">
+		<title lang="zh">BEYONPAN钛健康炒锅优惠组-渠道（右）</title>
 	</programme>
 	<channel id="newtv精品体育">
 		<display-name lang="zh">NEWTV精品体育</display-name>
