@@ -85,9 +85,12 @@ jobs:
         # 重命名 current branch 为 Files
         git branch -m Files
     
-    - name: Pull latest changes
-      run: git pull --rebase origin Files
+    - name: Pull latest changes (using merge)
+      run: |
+        git fetch origin
+        git merge --no-edit origin/Files || git reset --hard origin/Files
     
     - name: Push changes
-      run: git push --set-upstream origin Files
+      run: git push origin Files
+
 
