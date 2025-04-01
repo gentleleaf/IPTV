@@ -57,37 +57,6 @@ jobs:
         
         git add -A
         git commit -m "Update files" || echo "No changes to commit"
-        git push --force
+        git push --force origin main  # 确保推送到 main 分支
       env:
         GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-
-    - name: Clean
-      run: |
-        git config --local user.email "github-actions[bot]@users.noreply.github.com"
-        git config --local user.name "github-actions[bot]"
-    
-        # 切换到 main 分支，确保在正确的分支上操作
-        git checkout main
-    
-        # 创建一个新的孤立分支来操作文件
-        git checkout --orphan latest_branch
-        git add -A
-        git commit -am "${GET_TIME}"
-    
-        # 删除如果存在的 Files 分支（如果有的话）
-        if git show-ref --verify --quiet refs/heads/Files; then
-          git branch -D Files
-        else
-          echo "Branch 'Files' does not exist. Skipping..."
-        fi
-    
-        # 重命名 current branch 为 Files
-        git branch -m Files
-    
-    - name: Force Push to main
-      run: |
-        git fetch origin
-        git reset --hard origin/main  # 强制同步远程最新版本
-        git add IPTV.m3u  # 只将 IPTV.m3u 添加到暂存区，确保它被更新
-        git commit -m "Force update IPTV.m3u" || echo "No changes to commit"
-        git push --force origin main  # 强制推送
