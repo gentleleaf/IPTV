@@ -85,8 +85,9 @@ jobs:
         # 重命名 current branch 为 Files
         git branch -m Files
     
-    - name: Push changes to GitHub
-      run: |
-        git push --set-upstream origin Files
-      env:
-        GH_PAT: ${{ secrets.GH_PAT }}
+    - name: Pull latest changes
+      run: git pull --rebase origin Files
+    
+    - name: Push changes
+      run: git push --set-upstream origin Files
+
