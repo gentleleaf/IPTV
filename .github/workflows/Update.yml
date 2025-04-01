@@ -86,5 +86,5 @@ jobs:
         git branch -m Files
     
     - name: Push
-      run: git push -f origin Files
+      run: git push -f origin main
 
