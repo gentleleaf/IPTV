@@ -38,7 +38,6 @@ jobs:
         sed -i '1i #EXTM3U' CNTV.m3u
         sed -i '/^\s*$/d' CNTV.m3u
 
-
         # 整合源
         rm -f IPTV.m3u && touch IPTV.m3u
         cat CCTV.m3u >> IPTV.m3u
@@ -89,8 +88,6 @@ jobs:
       run: |
         git fetch origin
         git reset --hard origin/main  # 强制同步远程最新版本
-        git add .
-        git commit -m "Force update all files" || echo "No changes to commit"
+        git add IPTV.m3u  # 只将 IPTV.m3u 添加到暂存区，确保它被更新
+        git commit -m "Force update IPTV.m3u" || echo "No changes to commit"
         git push --force origin main  # 强制推送
-
-
