@@ -85,6 +85,12 @@ jobs:
         # 重命名 current branch 为 Files
         git branch -m Files
     
-    - name: Push
-      run: git push -f origin main
+    - name: Force Push to main
+      run: |
+        git fetch origin
+        git reset --hard origin/main  # 强制同步远程最新版本
+        git add .
+        git commit -m "Force update all files" || echo "No changes to commit"
+        git push --force origin main  # 强制推送
+
 
